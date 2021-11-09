@@ -1,14 +1,28 @@
-body{ 
- background-image: url('https://www.xtrafondos.com/wallpapers/patron-de-donas-7850.jpg')
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    background-image: url('https://www.xtrafondos.com/wallpapers/patron-de-donas-7850.jpg')
 }
 
-#thirdDiv{
+#thirdDiv{ 
     height: 600px; width: 500px;
     background:rgba(250, 128, 114, 0.205);
     padding: 50px;
+    margin: auto;
     border: 4px dotted rgba(255, 255, 255, 0.87);
+    display: flex;
+    flex-direction: column;
+
 }
 #spanId{
     margin: 50px;
     font-size: 18px;
+}
+
+.divClass{
+    text-align: center;
+    width: 500px;
+    margin: 0px auto;
 }
